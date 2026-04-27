@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Penitipan Barang</title>
+
+        <link href=""https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel=""stylesheet">
+
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                background: #f5f7fb;
+            }
+
+            .content {
+                flex: 1;
+                padding: 30px;
+            }
+
+            .header {
+                background: linear-gradient(135deg, #5b86e5, #36d1dc);
+                color: white;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            .card {
+                background: white;
+                padding: 25px;
+                border-radius: 12px;
+                margin-top: 20px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            }
+
+            .note {
+                background: #fff3cd;
+                padding: 10px;
+                border-radius: 8px;
+                margin-bottom: 15px;
+                font-size: 13px;
+            }
+
+            .form-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+
+            .form-group {
+                display: flex;
+                flex-direction: column;
+            }
+
+            label {
+                margin-bottom: 5px;
+                font-size: 13px;
+            }
+
+            input {
+                padding: 10px;
+                border-radius: 6px;
+                border: 1px solid #ccc;
+            }
+
+            .submit-btn {
+                margin-top: 20px;
+                background: orange;
+                color: white;
+                padding: 12px;
+                width: 100%;
+                border: none;
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="sidebar">
+            <h3>User</h3>
+            <p>Titip Barang</p>
+        </div>
+    </body>
+        <div class="content">
+            <div class="header">
+                <h2>Penitipan Barang BTH</h2>
+                <p>Isi data dengan benar ya</p>
+            </div>
+        
+        <div class="card">
+            <h3>Form Titip Barang</h3>
+
+            <div class="note">
+                - Mahasiswa wajib isi NIM <br>
+                - Non kampus wajib isi No HP <br>
+            </div>
+
+            </form>
+        </div>
+        
+            <div style="background:white; padding:25px; border-radius:10px; margin-top:20px;">
+
+                <h3>Form Titip Barang</h3>
+
+                <form>
+                    <input type="text" placeholder="Nama"><br><br>
+                    <input type="text" placeholder="NIM"><br><br>
+                    <input type="text" placeholder="No HP"><br><br>
+                    <input type="text" placeholder="Nama Barang"><br><br>
+                    <input type="time" placeholder="Jam Titip"><br><br>
+                    <input type="time" placeholder="Jam Ambil"><br><br>
+
+                    <button>SIMPAN</button>
+                </form>
+            </div>
+        </div>
+</html> 
