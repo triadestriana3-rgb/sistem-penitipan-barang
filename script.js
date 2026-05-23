@@ -1,31 +1,9 @@
-let total = 0;
+const form = document.getElementById("titipForm");
 
-function tambahData() {
-  let nama = document.getElementById("nama").value;
-  let prodi = document.getElementById("prodi").value;
-  let email = document.getElementById("email").value;
-  let tingkat = document.getElementById("tingkat").value;
-  let hp = document.getElementById("hp").value;
-  let barang = document.getElementById("barang").value;
+form.addEventListener("submit", function(e){
 
-  if(nama === "" || hp === "" || barang === "") {
-    alert("Isi data dulu!");
-    return;
-  }
+  e.preventDefault();
 
-  let table = document.getElementById("dataTable");
+  window.location.href = "success.html";
 
-  let row = `
-    <tr>
-      <td>${nama}</td>
-      <td>${prodi}</td>
-      <td>${email}</td>
-      <td>${tingkat}</td>
-      <td>${hp}</td>
-      <td>${barang}</td>
-      <td style="color:green;">Disimpan</td>
-    </tr>
-  `;
-
-  table.innerHTML += row;
-}
+});
