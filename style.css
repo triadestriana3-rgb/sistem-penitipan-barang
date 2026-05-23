@@ -78,8 +78,8 @@ body{
 }
 
 .avatar{
-  width:40px;
-  height:40px;
+  width:25px;
+  height:25px;
   background:#ff9d4d;
   border-radius:50%;
   display:flex;
